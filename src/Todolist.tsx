@@ -8,6 +8,7 @@ type TodolistPropsType = {
 
 
 const Todolist: React.FC<TodolistPropsType> = (props) => {
+    
     return (
         <div className="todolist">
             <h3>{props.title}</h3>
