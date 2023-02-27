@@ -5,15 +5,13 @@ import Todolist from './Todolist';
 
 
 
-function App() {
-
-
+function App(): JSX.Element {
     return (
         <div className="App">
-            <Todolist />
-            <Todolist />
-            <Todolist />
-            <Todolist />
+            <Todolist title={"What to buy"} />
+            <Todolist title={"How are you"} />
+            <Todolist title={"yo"} />
+            <Todolist title={"Kamasutra It"} />
         </div>
     );
 }
