@@ -3,12 +3,6 @@
   display: flex;
 }
 
-.App>div {
+.App > div {
   margin-right: 50px;
-}
-
-.todolist {
-  border: 2px solid hotpink;
-  border-radius: 6px;
-  padding: 20px;
 }
